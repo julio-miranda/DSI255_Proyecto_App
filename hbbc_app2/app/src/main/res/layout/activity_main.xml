@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/flo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="411dp"
+            android:layout_height="339dp"
+            android:gravity="top"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:inputType="text"
+                android:text="Inicio de sesion"
+                android:textSize="30dp"
+                android:textStyle="bold"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/white"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/correoIniciarSesionTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:textColorHint="#B5B5B5"
+                android:textColor="@color/white"
+                android:ems="10"
+                android:hint="Correo"
+                android:inputType="text"
+                android:text="" />
+
+            <EditText
+                android:id="@+id/contraIniciarSesionTxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_gravity="center"
+                android:ems="10"
+                android:textColorHint="#B5B5B5"
+                android:textColor="@color/white"
+                android:hint="Contraseña"
+                android:inputType="textPassword"
+                android:text=""
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/btnIniciarSesion"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@drawable/redondeado"
+                    android:text="Iniciar sesion" />
+
+                <Button
+                    android:id="@+id/btnRegistrarse"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="top"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/redondeado"
+                    android:text="Registrarse" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

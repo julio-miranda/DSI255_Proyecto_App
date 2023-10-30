@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "236931809830",
+    "project_id": "hbbc-85366",
+    "storage_bucket": "hbbc-85366.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:236931809830:android:bca7aa6ce6f157f593dce7",
+        "android_client_info": {
+          "package_name": "com.cm2d.hbbc_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbKlFaaoNhIu6WxA6s4NK15MhxP1luEjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

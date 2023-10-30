@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/cuadroborde"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:id="@+id/nombreBungalowTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bungalow"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:textSize="18dp"
+            android:layout_marginTop="5dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/fechaInicioTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha inicio"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/fechaFinalTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fecha fin"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"/>
+
+        <TextView
+            android:id="@+id/precioTotalTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:text="Precio total"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="5dp"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
